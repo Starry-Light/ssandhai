@@ -10,3 +10,6 @@ html[lang=ta] h1{font-size:clamp(2.4rem,4.8vw,4.6rem);line-height:1.4;letter-spa
 
 
 .article-media{margin:35px 0}.article-media video,.article-media audio{display:block;width:100%;max-width:100%}.article-media figcaption{font-size:.85rem;color:var(--muted);margin-top:12px}.article-media details{margin-top:16px}.article-media summary{color:var(--red);cursor:pointer}.article-media details p{margin-top:15px;white-space:pre-wrap}
+
+/* Approved mission and vision */
+.home-purpose{display:grid;grid-template-columns:1fr 3fr;gap:40px;padding-block:50px;border-bottom:1px solid var(--line)}.home-purpose>.eyebrow{padding-top:12px}.home-purpose h2{font-size:clamp(1.8rem,3vw,2.7rem);margin-bottom:20px}.home-purpose p:not(.eyebrow){font-size:1rem;line-height:1.9;max-width:900px}.home-purpose .text-link{margin-top:20px}.mission-list{margin:0;padding-left:22px;color:var(--muted);font-size:.93rem}.mission-list li{padding-left:4px;margin-bottom:16px;line-height:1.85}.mission-list li:last-child{margin-bottom:0}@media(max-width:560px){.home-purpose{grid-template-columns:1fr;gap:15px;padding-block:30px}.home-purpose>.eyebrow{padding-top:0}.home-purpose p:not(.eyebrow){font-size:.93rem}.mission-list{font-size:.9rem}}

@@ -32,7 +32,7 @@ Import **Starry-Light/ssandhai** into Vercel. Choose **Other** as the framework,
 
 Use `bi('English text', 'தமிழ் உரை')` for visitor-facing copy. Add entries in code and redeploy. The site remembers language preference locally; no visitor data is sent to a backend.
 
-The People section remains on hold. Team profiles and testimonials are not published. Mission and vision wording is marked as draft. Event examples and sample editorial entries are labelled. Saaral's upcoming event has no invented date, venue or registration. Product pages are informational showcases with no checkout.
+The People section remains on hold. Team profiles and testimonials are not published. The approved mission and vision are in `purpose` in src/content.js; the homepage introduces the vision and the About page presents the full vision and six mission points. Event examples and sample editorial entries are labelled. Saaral's upcoming event has no invented date, venue or registration. Product pages are informational showcases with no checkout.
 
 ## Logos
 
@@ -71,4 +71,4 @@ Google Fonts is an optional external enhancement; system and Tamil font fallback
 
 ## Before launch
 
-Replace the two logo placeholders; review Tamil translations and draft mission/vision with the team; add approved contact details and photographs; replace or approve remaining sample content; check the deployed site visually at desktop and mobile sizes.
+Replace the two logo placeholders; review Tamil translations with the team; add approved contact details and photographs; replace or approve remaining sample content; check the deployed site visually at desktop and mobile sizes.

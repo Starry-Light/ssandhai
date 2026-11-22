@@ -46,3 +46,37 @@ export const questions = [
   {prompt:bi('What is a good way to document a shared family recipe?','குடும்பச் சமையல் குறிப்பைப் பதிவு செய்ய சிறந்த வழி எது?'),options:[bi('Leave out the source','பகிர்ந்தவரைக் குறிப்பிடாமல் விடுதல்'),bi('Record ingredients, steps and the contributor’s story','பொருட்கள், செய்முறை, பங்களிப்பாளரின் கதையைப் பதிவு செய்தல்'),bi('Keep only the dish name','உணவின் பெயரை மட்டும் எழுதுதல்')],answer:1,explanation:bi('The practical steps and the person’s story together help preserve the recipe’s context.','செய்முறையும் பகிர்ந்தவரின் கதையும் சேர்ந்து அதன் பின்னணியைப் பாதுகாக்கின்றன.')},
 ];
 
+
+// Approved mission and vision. Keep both languages together for editorial updates.
+export const purpose = {
+  "vision": {
+    "en": "To be a shared heritage space at SSN, where students, staff, and non-teaching staff come together to preserve, celebrate, and carry forward the stories, crafts, and culture around us through a micro archive, so that heritage becomes a source of shared pride, livelihood, and lasting value for generations to come.",
+    "ta": "SSN-இல் மாணவர்கள், பணியாளர்கள் மற்றும் ஆசிரியரல்லாத பணியாளர்கள் ஒன்றிணைந்து, நம்மைச் சுற்றியுள்ள கதைகள், கைவினைகள் மற்றும் பண்பாட்டை ஒரு சிறு காப்பகத்தின் வழியாகப் பாதுகாத்து, கொண்டாடி, அடுத்த தலைமுறைகளுக்குக் கொண்டு செல்லும் பகிரப்பட்ட மரபுத் தளமாக விளங்குதல்; இதன் மூலம் மரபு, வருங்காலத் தலைமுறைகளுக்குப் பகிரப்பட்ட பெருமை, வாழ்வாதாரம் மற்றும் நிலையான மதிப்பின் ஆதாரமாகத் திகழச் செய்தல்."
+  },
+  "mission": [
+    {
+      "en": "Build an inclusive SSN community that makes heritage accessible to all.",
+      "ta": "மரபை அனைவரும் அணுகக்கூடிய வகையில், அனைவரையும் உள்ளடக்கிய SSN சமூகத்தை உருவாக்குதல்."
+    },
+    {
+      "en": "Curate a digitized micro archive of stories, crafts, and culture.",
+      "ta": "கதைகள், கைவினைகள் மற்றும் பண்பாட்டைத் தொகுத்து, மின்னாக்கம் செய்யப்பட்ட சிறு காப்பகத்தை உருவாக்கிப் பராமரித்தல்."
+    },
+    {
+      "en": "Nurture sustainability by supporting small heritage-based ventures.",
+      "ta": "மரபு சார்ந்த சிறு தொழில் முயற்சிகளை ஆதரிப்பதன் மூலம் நிலைத்தன்மையை வளர்த்தல்."
+    },
+    {
+      "en": "Kindle curiosity and cultural learning through the Sandhai portal.",
+      "ta": "சந்தை இணையத் தளத்தின் வழியாக ஆர்வத்தையும் பண்பாட்டுக் கற்றலையும் தூண்டுதல்."
+    },
+    {
+      "en": "Support intangible cultural heritage as a steppingstone for future ventures.",
+      "ta": "எதிர்கால முயற்சிகளுக்கான படிக்கல்லாக அருவப் பண்பாட்டு மரபை ஆதரித்தல்."
+    },
+    {
+      "en": "Contribute to a sustainable society through a marketplace that creates and preserves value.",
+      "ta": "மதிப்பை உருவாக்கிப் பாதுகாக்கும் சந்தையின் வழியாக நிலையான சமூகத்திற்குப் பங்களித்தல்."
+    }
+  ]
+};
